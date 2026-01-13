@@ -12,7 +12,7 @@
 
 ### 👨‍💻 Who I Am
 
-I am an **Associate Machine Learning Engineer** and **Systems Architect** driven by the convergence of technical innovation and human-centric design. My work operates at the intersection of Deep Learning, Retrieval-Augmented Generation (RAG), and Organizational Leadership.
+I am an **Associate Machine Learning Engineer Candidate** and **Systems Architect** driven by the convergence of technical innovation and human-centric design. My work operates at the intersection of Deep Learning, Retrieval-Augmented Generation (RAG), and Organizational Leadership.
 
 Currently serving as the **CEO of Monash DeepNeuron**, I lead a diverse team of **130+ engineers**, researchers, and creatives. My philosophy is rooted in **Systems Thinking**—whether optimizing a neural network or scaling a student organization, the secret lies in reducing friction and maximizing the signal-to-noise ratio.
 
