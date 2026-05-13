@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Impact metrics: 83% reduction, 42% reduction, 289% improvement">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0d1f3a"/>
+      <stop offset="100%" stop-color="#06101f"/>
+    </linearGradient>
+
+    <linearGradient id="num1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="num2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#3aa0ff"/>
+      <stop offset="100%" stop-color="#5ce1e6"/>
+    </linearGradient>
+    <linearGradient id="num3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <!-- Card outline gradient -->
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#3aa0ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)" rx="12"/>
+
+  <!-- ============ Section header ============ -->
+  <text x="40" y="44"
+        fill="#94a3b8"
+        font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+        font-size="12" letter-spacing="3">
+    █ IMPACT METRICS &#8212; SHIPPED, MEASURED, ACCOUNTABLE
+  </text>
+
+  <!-- ============ Three tiles ============ -->
+  <!-- Tile 1: Kion 83% -->
+  <g>
+    <rect x="40" y="74" width="360" height="180" rx="10"
+          fill="#0a1628" stroke="url(#border)" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.5s" fill="freeze"/>
+    </rect>
+
+    <text x="60" y="106"
+          fill="#5ce1e6"
+          font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+          font-size="11" letter-spacing="2" opacity="0">
+      KION COACHING &#8226; 2023
+      <animate attributeName="opacity" from="0" to="0.8" begin="0.4s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <!-- Big number -->
+    <text x="60" y="180"
+          fill="url(#num1)"
+          font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-weight="800" font-size="68" letter-spacing="-2" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 12" to="0 0" begin="0.6s" dur="0.6s" fill="freeze"/>
+      &#8595; 83%
+    </text>
+
+    <text x="60" y="212"
+          fill="#cbd5e1"
+          font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-weight="500" font-size="14" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.95" begin="0.9s" dur="0.5s" fill="freeze"/>
+      Operational friction reduction
+    </text>
+    <text x="60" y="232"
+          fill="#64748b"
+          font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+          font-size="11" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.5s" fill="freeze"/>
+      via database modelling &amp; automation
+    </text>
+  </g>
+
+  <!-- Tile 2: DeepNeuron 42% -->
+  <g>
+    <rect x="420" y="74" width="360" height="180" rx="10"
+          fill="#0a1628" stroke="url(#border)" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.5s" fill="freeze"/>
+    </rect>
+
+    <text x="440" y="106"
+          fill="#5ce1e6"
+          font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+          font-size="11" letter-spacing="2" opacity="0">
+      MONASH DEEPNEURON &#8226; 2025
+      <animate attributeName="opacity" from="0" to="0.8" begin="0.6s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <text x="440" y="180"
+          fill="url(#num2)"
+          font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-weight="800" font-size="68" letter-spacing="-2" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 12" to="0 0" begin="0.8s" dur="0.6s" fill="freeze"/>
+      &#8595; 42%
+    </text>
+
+    <text x="440" y="212"
+          fill="#cbd5e1"
+          font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-weight="500" font-size="14" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.95" begin="1.1s" dur="0.5s" fill="freeze"/>
+      Internal admin overhead reduction
+    </text>
+    <text x="440" y="232"
+          fill="#64748b"
+          font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+          font-size="11" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.5s" fill="freeze"/>
+      across 130+ engineer team via workflow design
+    </text>
+  </g>
+
+  <!-- Tile 3: DAPPI XP 289% -->
+  <g>
+    <rect x="800" y="74" width="360" height="180" rx="10"
+          fill="#0a1628" stroke="url(#border)" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.5s" fill="freeze"/>
+    </rect>
+
+    <text x="820" y="106"
+          fill="#5ce1e6"
+          font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+          font-size="11" letter-spacing="2" opacity="0">
+      DAPPI XP &#8226; RAG ENGINE &#8226; 2024
+      <animate attributeName="opacity" from="0" to="0.8" begin="0.8s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <text x="820" y="180"
+          fill="url(#num3)"
+          font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-weight="800" font-size="68" letter-spacing="-2" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 12" to="0 0" begin="1.0s" dur="0.6s" fill="freeze"/>
+      &#8593; 289%
+    </text>
+
+    <text x="820" y="212"
+          fill="#cbd5e1"
+          font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-weight="500" font-size="14" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.95" begin="1.3s" dur="0.5s" fill="freeze"/>
+      User engagement improvement
+    </text>
+    <text x="820" y="232"
+          fill="#64748b"
+          font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
+          font-size="11" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.5s" fill="freeze"/>
+      ingestion &#8594; embedding &#8594; retrieval pipeline
+    </text>
+  </g>
+</svg>

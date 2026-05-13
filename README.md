@@ -1,188 +1,199 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=006DAE&height=300&section=header&text=Justin%20Suan%20Thiha&fontSize=80&animation=fadeIn&fontAlignY=38&desc=Systems%20Architect%20%7C%20Leader%20%7C%20Builder&descAlignY=51&descAlign=62" />
-</div>
+<!--
+=================================================================================
+  README — Justin Suan Thiha
+  -----------------------------------------------------------------
+  This file is hand-authored. Animated SVG assets live in /assets.
+  Snake animation is generated daily by .github/workflows/snake.yml
+  and served from the `output` branch.
+=================================================================================
+-->
 
-<div align="center">
-  <h3>
-    <i>"I build systems that empower engineering teams to scale."</i>
-  </h3>
-</div>
+<!-- ============================================================
+     HERO  —  custom hand-authored animated SVG with dark/light variants
+     ============================================================ -->
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Justin Suan Thiha — Systems Architect, Leader, Builder" src="./assets/hero-dark.svg">
+</picture>
 
-### 👨‍💻 Who I Am
+<p align="center">
+  <a href="https://www.linkedin.com/in/justinthiha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  &nbsp;
+  <a href="mailto:justin.thiha@monash.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
+  &nbsp;
+  <a href="https://monashdeepneuron.com"><img src="https://img.shields.io/badge/Monash%20DeepNeuron-006DAE?style=flat-square&logo=monash&logoColor=white"></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=justinthiha&label=profile%20views&color=3aa0ff&style=flat-square">
+</p>
 
-I am an **Associate Machine Learning Engineer Candidate** and **Systems Architect** driven by the convergence of technical innovation and human-centric design. My work operates at the intersection of Deep Learning, Retrieval-Augmented Generation (RAG), and Organizational Leadership.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=5CE1E6&center=true&vCenter=true&width=720&lines=Leading+130%2B+engineers+at+Monash+DeepNeuron;Shipping+RAG-based+classification+systems;Reducing+operational+friction+by+83%25;Associate+ML+Engineer+Candidate+%E2%80%94+2026">
+  </a>
+</p>
 
-Currently serving as the **CEO of Monash DeepNeuron**, I lead a diverse team of **130+ engineers**, researchers, and creatives. My philosophy is rooted in **Systems Thinking**—whether optimizing a neural network or scaling a student organization, the secret lies in reducing friction and maximizing the signal-to-noise ratio.
+<img src="./assets/divider.svg" width="100%" alt="">
 
-My technical focus is on building RAG-based classification systems (like the **DAPPI XP** engine) that bring intelligence to unstructured data. My leadership focus is on automating operational workflows to allow teams to focus on high-value creative work.
+## Hello.
 
----
+I'm **Justin** — a builder operating at the intersection of **machine learning**, **systems design**, and **organisational leadership**. By day I lead a team of 130+ engineers, researchers, and creatives as CEO of [Monash DeepNeuron](https://monashdeepneuron.com), Australia's largest student-led AI organisation. By night (and most other times) I build **RAG-based classification engines**, **internal automation platforms**, and the occasional contribution graph snake.
 
-### 🔭 Current Focus
+My thesis is simple: **engineering excellence is downstream of clear systems thinking.** Whether the system is a neural net or a 130-person org, the wins come from reducing friction and increasing signal-to-noise. Everything below is evidence of that thesis applied.
 
-* **Engineering:** Scaling administrative automation platforms and RAG-based classification engines using **TensorFlow** and **Vector Databases**.
-* **Leadership:** Directing strategy for **Monash DeepNeuron** and serving as the **Notion Campus Lead** for Melbourne.
-* **Learning:** Advanced Multimodal Computer Vision pipelines and Behaviour Modelling.
-* **Philosophy:** Exploring the intersection of Communication Frameworks (CLAPS) and Servant Leadership.
+<img src="./assets/divider.svg" width="100%" alt="">
 
----
+## Impact, in three numbers
 
-### 🛠 Technical Arsenal
+<img src="./assets/metrics.svg" alt="Impact metrics: 83% friction reduction at Kion, 42% admin reduction at DeepNeuron, 289% engagement lift on DAPPI XP">
 
-<div align="center">
+<sub>Each tile is shipped production work — not a side project, not a proof of concept. Drill down in the timeline below.</sub>
 
-<img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" />
-<img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<br/>
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-<img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+## What I'm building right now
 
-<br/>
-<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+> 🧠 &nbsp;**DAPPI XP** — a RAG-based classification engine for unstructured data. Pipeline: ingestion → embedding → vectorised criteria store → retrieval-augmented scoring. Lifted user engagement **+289%**.
+>
+> 🏛️ &nbsp;**Monash DeepNeuron** — directing strategy and operations for 130+ engineers. Recently ran statewide hackathons (VicHack, 400+ participants) and reduced internal admin overhead **42%** through workflow automation.
+>
+> 📚 &nbsp;**Notion Campus Lead, Melbourne** — driving Notion adoption across Monash's student engineering community.
+>
+> 🎓 &nbsp;**Teaching Associate, Monash University** — preparing for graduation (BE Software / BCom Finance) and an Associate ML Engineer role for 2026.
 
-<br/>
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" />
-<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+<img src="./assets/divider.svg" width="100%" alt="">
 
-</div>
+## The arsenal
 
----
-
-### 🏆 Career & Leadership Velocity
-
-```mermaid
-timeline
-    title Engineering & Leadership Evolution
-    2023 : Joined Kion Coaching
-         : Reduced Admin Overhead by 83%
-         : Education Lead (DeepNeuron)
-    2024 : Developed DAPPI XP (RAG Engine)
-         : Improved Engagement by 289%
-         : Vectorised Criteria Store Implementation
-    2025 : Appointed CEO - Monash DeepNeuron
-         : Leading 130+ Engineers
-         : Notion Campus Leader (Melbourne)
-         : Teaching Associate (Monash Uni)
-    2026 : Graduating Monash University
-         : BE (Software) / BCom (Finance)
-         : Ready for Associate ML Roles
-```
-
-### 🚀 High-Impact Metrics Dashboard
-
-<div align="center">
-
-| **Kion Coaching** | **Monash DeepNeuron** | **DAPPI XP Engine** |
-| --- | --- | --- |
-| 📉 **83%** | 📉 **42%** | 📈 **289%** |
-| Reduction in Operational Friction via Database Modelling & Automation | Reduction in Internal Admin Overhead via Workflow Optimization | Improvement in User Engagement via RAG-Based Classification |
-| *Scaled business capacity from 4 to 27 active students* | *Managed & led statewide hackathons (VicHack) with 400+ participants* | *Delivered end-to-end ML workflow (Ingestion -> Embedding -> Retrieval)* |
-
-</div>
-
----
-
-### 📚 My Library: The Principles That Guide Me
-
-I believe that engineering excellence is downstream of clear thinking and strong leadership. These are the texts that shape my operating system.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,fastapi,aws,docker,postgres,redis,git,linux,notion&perline=12" alt="Tech stack icons">
+  </a>
+</p>
 
 <table align="center">
 <tr>
-<td align="center" width="33%">
-<img src="https://www.google.com/search?q=https://m.media-amazon.com/images/I/91bYsX41DVL.*AC_UF1000,1000_QL80*.jpg" alt="Atomic Habits" width="140" />
-<br />
-<b>Atomic Habits</b>
-<br />
-<i>James Clear</i>
-<br />
-<br />
-"You do not rise to the level of your goals. You fall to the level of your systems."
-<br />
-<img src="https://img.shields.io/badge/Topic-Systems-CC782F?style=flat-square" />
+<td valign="top" width="33%">
+
+**🧠 ML & Data**
+
+Deep learning · RAG pipelines · Vector databases · Embeddings · Classification systems · pandas · NumPy · scikit-learn
+
 </td>
-<td align="center" width="33%">
-<img src="https://www.google.com/search?q=https://m.media-amazon.com/images/I/71X8%2B9d2c6L.*AC_UF1000,1000_QL80*.jpg" alt="Diary of a CEO" width="140" />
-<br />
-<b>The Diary of a CEO</b>
-<br />
-<i>Steven Bartlett</i>
-<br />
-<br />
-"Law 1: Fill your buckets in the right order." A masterclass in resilience & strategy.
-<br />
-<img src="https://img.shields.io/badge/Topic-Leadership-006DAE?style=flat-square" />
+<td valign="top" width="33%">
+
+**⚙️ Engineering**
+
+Python · SQL · Java · FastAPI · PostgreSQL · Docker · AWS · Git · CI/CD
+
 </td>
-<td align="center" width="33%">
-<img src="https://www.google.com/search?q=https://m.media-amazon.com/images/I/81xI52d0okL.*AC_UF1000,1000_QL80*.jpg" alt="Leaders Eat Last" width="140" />
-<br />
-<b>Leaders Eat Last</b>
-<br />
-<i>Simon Sinek</i>
-<br />
-<br />
-Building the 'Circle of Safety'. Essential for managing large teams (130+).
-<br />
-<img src="https://img.shields.io/badge/Topic-Culture-548164?style=flat-square" />
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<img src="https://www.google.com/search?q=https://m.media-amazon.com/images/I/71w14L%2B2vAL.*AC_UF1000,1000_QL80*.jpg" alt="Think Again" width="140" />
-<br />
-<b>Think Again</b>
-<br />
-<i>Adam Grant</i>
-<br />
-<br />
-The power of knowing what you don't know—essential for debugging models & teams.
-<br />
-<img src="https://img.shields.io/badge/Topic-Cognition-8A67AB?style=flat-square" />
-</td>
-<td align="center" width="33%">
-<img src="https://www.google.com/search?q=https://m.media-amazon.com/images/I/61N7c7I%2BBj8L.*AC_UF1000,1000_QL80*.jpg" alt="Indistractable" width="140" />
-<br />
-<b>Indistractable</b>
-<br />
-<i>Nir Eyal</i>
-<br />
-<br />
-Mastering attention management in an age of digital noise.
-<br />
-<img src="https://img.shields.io/badge/Topic-Focus-E4002B?style=flat-square" />
-</td>
-<td align="center" width="33%">
-<img src="https://www.google.com/search?q=https://m.media-amazon.com/images/I/61tI7eF17cL.*AC_UF1000,1000_QL80*.jpg" alt="$100M Offers" width="140" />
-<br />
-<b>$100M Offers</b>
-<br />
-<i>Alex Hormozi</i>
-<br />
-<br />
-Engineering is worthless if it doesn't solve a valuable problem. The Value Equation.
-<br />
-<img src="https://img.shields.io/badge/Topic-Value-C29343?style=flat-square" />
+<td valign="top" width="33%">
+
+**🏛️ Systems & Ops**
+
+Notion (Campus Lead) · Workflow design · Database modelling · Team scaling · Communication frameworks (CLAPS)
+
 </td>
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<div align="center">
-<p>
-<a href="https://www.linkedin.com/in/justinthiha">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" />
-</a>
-<a href="mailto:justin.thiha@monash.edu">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-Contact_Me-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" />
-</a>
+## Live signal
+
+<p align="center">
+  <a href="https://github.com/justinthiha">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=justinthiha&show_icons=true&hide_border=true&title_color=5ce1e6&icon_color=a78bfa&text_color=cbd5e1&bg_color=0d1f3a">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=justinthiha&show_icons=true&hide_border=true&title_color=006DAE&icon_color=7c3aed&text_color=0f172a&bg_color=f8fafc">
+      <img src="https://github-readme-stats.vercel.app/api?username=justinthiha&show_icons=true&hide_border=true&theme=transparent" height="180">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/justinthiha">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=justinthiha&hide_border=true&background=0d1f3a&stroke=5ce1e6&ring=a78bfa&fire=a78bfa&currStreakLabel=5ce1e6&currStreakNum=cbd5e1&sideNums=cbd5e1&sideLabels=cbd5e1&dates=94a3b8">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=justinthiha&hide_border=true&background=f8fafc&stroke=006DAE&ring=7c3aed&fire=7c3aed&currStreakLabel=006DAE">
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=justinthiha&hide_border=true" height="180">
+    </picture>
+  </a>
 </p>
-<p>© 2026 Justin Suan Thiha</p>
-</div>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=justinthiha&layout=compact&hide_border=true&title_color=5ce1e6&text_color=cbd5e1&bg_color=0d1f3a&langs_count=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=justinthiha&layout=compact&hide_border=true&title_color=006DAE&text_color=0f172a&bg_color=f8fafc&langs_count=8">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=justinthiha&layout=compact&hide_border=true&langs_count=8" height="160">
+  </picture>
+</p>
+
+### Eating my way through the contribution graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/justinthiha/justinthiha/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/justinthiha/justinthiha/output/snake.svg">
+  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/justinthiha/justinthiha/output/snake.svg">
+</picture>
+
+<sub>↑ generated daily by a GitHub Action. The snake's been busy.</sub>
+
+<img src="./assets/divider.svg" width="100%" alt="">
+
+## The arc, year by year
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#0d1f3a', 'primaryTextColor':'#cbd5e1', 'primaryBorderColor':'#3aa0ff', 'lineColor':'#5ce1e6', 'secondaryColor':'#06101f', 'tertiaryColor':'#0a1628' }}}%%
+timeline
+    title Engineering &amp; Leadership Evolution
+    2023 : Joined Kion Coaching
+         : Cut admin overhead 83%
+         : Education Lead at DeepNeuron
+    2024 : Built DAPPI XP (RAG engine)
+         : +289% engagement lift
+         : Vectorised criteria store
+    2025 : Appointed CEO &mdash; Monash DeepNeuron
+         : Leading 130+ engineers
+         : Notion Campus Lead (Melbourne)
+         : Teaching Associate (Monash)
+    2026 : Graduating BE(Software) / BCom(Finance)
+         : Ready for Associate ML roles
+```
+
+<img src="./assets/divider.svg" width="100%" alt="">
+
+## My operating system
+
+A short bookshelf. Engineering and leadership both reward studying the people who got there first.
+
+| Book | Author | The takeaway I apply |
+|------|--------|-----------------------|
+| **Atomic Habits** | James Clear | *You fall to the level of your systems.* Why I optimise the workflow, not the willpower. |
+| **The Diary of a CEO** | Steven Bartlett | The Five Buckets, in order. A framework for managing energy as a 22-year-old CEO. |
+| **Leaders Eat Last** | Simon Sinek | The Circle of Safety. Non-negotiable for managing a 130-person volunteer org. |
+| **Think Again** | Adam Grant | Debugging your priors. The same loop whether the bug is in a model or a meeting. |
+| **Indistractable** | Nir Eyal | Time-blocking and traction over distraction. The work-week is a system too. |
+| **$100M Offers** | Alex Hormozi | The Value Equation. Engineering is worthless without a problem worth solving. |
+
+<img src="./assets/divider.svg" width="100%" alt="">
+
+## Let's talk
+
+I'm actively looking for **Associate Machine Learning Engineer** opportunities for 2026 — particularly teams working on RAG, classification systems, or production ML infrastructure. I'm also open to founder conversations, advisory chats on student engineering communities, and anyone wanting to swap notes on running large volunteer organisations.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/justinthiha">
+    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  &nbsp;
+  <a href="mailto:justin.thiha@monash.edu">
+    <img src="https://img.shields.io/badge/Email%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    <i>"You do not rise to the level of your goals. You fall to the level of your systems."</i><br>
+    © 2026 Justin Suan Thiha &nbsp;·&nbsp; built in Melbourne &nbsp;·&nbsp; hand-authored SVGs in <code>/assets</code>
+  </sub>
+</p>
