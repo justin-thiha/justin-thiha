@@ -6,7 +6,7 @@ This bundle is a complete, self-contained GitHub profile README. Follow these st
 
 ## Prerequisites
 
-- A GitHub account with username `justinthiha` (or change every occurrence below)
+- A GitHub account with username `justin-thiha` (or change every occurrence below)
 - Git installed locally
 - A free Vercel/Heroku/etc account is **not** required — all third-party SVGs in this README are hosted services that work out of the box
 
@@ -19,16 +19,16 @@ GitHub's "profile README" trick: create a repo whose name matches your username 
 ```bash
 # On github.com:
 #   New repository
-#   Owner: justinthiha
-#   Repository name: justinthiha   ← must match your username exactly
+#   Owner: justin-thiha
+#   Repository name: justin-thiha   ← must match your username exactly
 #   Public, initialise with a README.
 ```
 
 Then clone it locally:
 
 ```bash
-git clone https://github.com/justinthiha/justinthiha.git
-cd justinthiha
+git clone https://github.com/justin-thiha/justin-thiha.git
+cd justin-thiha
 ```
 
 ---
@@ -38,7 +38,7 @@ cd justinthiha
 Copy the entire contents of this bundle into the repo root:
 
 ```
-justinthiha/
+justin-thiha/
 ├── README.md
 ├── assets/
 │   ├── hero-dark.svg
@@ -59,7 +59,7 @@ git commit -m "feat: cinematic README rehaul with animated SVG hero"
 git push origin main
 ```
 
-Visit `https://github.com/justinthiha` — the README should render with the animated hero, divider, and metrics tile playing immediately. Third-party stat cards (github-readme-stats, streak, typing) will also work right away.
+Visit `https://github.com/justin-thiha` — the README should render with the animated hero, divider, and metrics tile playing immediately. Third-party stat cards (github-readme-stats, streak, typing) will also work right away.
 
 ---
 
@@ -70,7 +70,7 @@ The snake animation needs a GitHub Action to generate it daily. Two things to do
 ### 3a. Enable Actions on the repo
 
 ```
-github.com/justinthiha/justinthiha → Settings → Actions → General
+github.com/justin-thiha/justin-thiha → Settings → Actions → General
   → Allow all actions and reusable workflows
   → Workflow permissions: Read and write permissions
   → Save
@@ -79,7 +79,7 @@ github.com/justinthiha/justinthiha → Settings → Actions → General
 ### 3b. Run the workflow once manually
 
 ```
-github.com/justinthiha/justinthiha → Actions tab
+github.com/justin-thiha/justin-thiha → Actions tab
   → Select "Generate Snake Animation"
   → Run workflow → Run workflow (green button)
 ```
@@ -113,7 +113,7 @@ github.com → Settings (your account) → Developer settings
 ### 4b. Add it as a repo secret
 
 ```
-github.com/justinthiha/justinthiha → Settings → Secrets and variables → Actions
+github.com/justin-thiha/justin-thiha → Settings → Secrets and variables → Actions
   → New repository secret
   → Name: METRICS_TOKEN
   → Value: <paste your PAT>

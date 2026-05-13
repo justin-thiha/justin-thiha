@@ -213,7 +213,7 @@
         font-weight="500"
         font-size="20"
         opacity="0">
-    CEO, Monash DeepNeuron &#160;&#160;//&#160;&#160; Associate ML Engineer Candidate
+    Associate MLE @ REA Group &#160;&#160;//&#160;&#160; Lead Tech @ EdAtlas
     <animate attributeName="opacity" from="0" to="0.95" begin="1.0s" dur="0.6s" fill="freeze"/>
   </text>
 
@@ -223,7 +223,7 @@
         font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
         font-size="14"
         opacity="0">
-    Building RAG systems &#38; leading 130+ engineers at Australia&#8217;s largest student-led AI org.
+    Shipping recommendation models at scale &#38; building the next generation of AU tutoring tech.
     <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.6s" fill="freeze"/>
   </text>
 
@@ -239,7 +239,7 @@
           font-family="'JetBrains Mono','SF Mono',Menlo,monospace"
           font-size="12"
           letter-spacing="1">
-      currently shipping &#8226; Monash University &#8226; Melbourne, AU
+      shipping ML &#8226; REA Group &#8226; EdAtlas &#8226; Melbourne, AU
     </text>
   </g>
 
@@ -260,6 +260,6 @@
         font-size="11"
         text-anchor="end"
         letter-spacing="2">
-    BE(Software) / BCom(Finance) &#8212; class of 2026
+    BE(Software) / BCom(Finance) &#8212; part-time, class of 2027
   </text>
 </svg>
