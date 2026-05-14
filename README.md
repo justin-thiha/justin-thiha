@@ -53,9 +53,6 @@ My thesis is simple: **engineering excellence is downstream of clear systems thi
 >
 > 🎓 &nbsp;**EdAtlas — Atlas Suite Platform** &nbsp;·&nbsp; *Lead Technical Developer*
 > Architecting a multi-portal platform (Student / Parent / Tutor / Admin / CRM + marketing site) for Melbourne's fastest-growing VCE tutoring company. Stack: Turborepo + pnpm monorepo, Next.js with role-based route groups, Supabase + Drizzle ORM, Cloudflare Stream for video, Vidstack player.
->
-> 🧠 &nbsp;**DAPPI XP** &nbsp;·&nbsp; *Personal R&D*
-> RAG-based classification engine. Pipeline: ingestion → embedding → vectorised criteria store → retrieval-augmented scoring. Lifted user engagement **+289%** in production.
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
@@ -106,14 +103,10 @@ Monorepo architecture · Design systems · Workflow automation · Team scaling �
 ## Live signal
 
 <p align="center">
-  <a href="https://github.com/justin-thiha">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=justin-thiha&show_icons=true&hide_border=true&title_color=5ce1e6&icon_color=a78bfa&text_color=cbd5e1&bg_color=0d1f3a">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=justin-thiha&show_icons=true&hide_border=true&title_color=006DAE&icon_color=7c3aed&text_color=0f172a&bg_color=f8fafc">
-      <img src="https://github-readme-stats.vercel.app/api?username=justin-thiha&show_icons=true&hide_border=true&theme=transparent" height="180">
-    </picture>
-  </a>
-  &nbsp;
+  <img src="./assets/metrics-extended.svg" alt="GitHub metrics: language breakdown, repository activity, contribution patterns — refreshed daily by .github/workflows/metrics.yml">
+</p>
+
+<p align="center">
   <a href="https://github.com/justin-thiha">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=justin-thiha&hide_border=true&background=0d1f3a&stroke=5ce1e6&ring=a78bfa&fire=a78bfa&currStreakLabel=5ce1e6&currStreakNum=cbd5e1&sideNums=cbd5e1&sideLabels=cbd5e1&dates=94a3b8">
@@ -121,14 +114,6 @@ Monorepo architecture · Design systems · Workflow automation · Team scaling �
       <img src="https://github-readme-streak-stats.herokuapp.com?user=justin-thiha&hide_border=true" height="180">
     </picture>
   </a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=justin-thiha&layout=compact&hide_border=true&title_color=5ce1e6&text_color=cbd5e1&bg_color=0d1f3a&langs_count=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=justin-thiha&layout=compact&hide_border=true&title_color=006DAE&text_color=0f172a&bg_color=f8fafc&langs_count=8">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=justin-thiha&layout=compact&hide_border=true&langs_count=8" height="160">
-  </picture>
 </p>
 
 ### Eating my way through the contribution graph
@@ -173,6 +158,9 @@ Before REA and EdAtlas, two roles shaped how I think:
 
 > 🏛️ **CEO, Monash DeepNeuron** &nbsp;·&nbsp; *2025*
 > Led Australia's largest student-led AI organisation — 130+ engineers, researchers, and creatives. Directed strategy, ran statewide hackathons (VicHack, 400+ participants), reduced internal admin overhead **42%** through workflow design. Stepped down to focus on industry ML.
+>
+> 🧠 **DAPPI XP — RAG Classification Engine** &nbsp;·&nbsp; *2024, Monash DeepNeuron*
+> Built and shipped a RAG-based classification engine at DeepNeuron. Pipeline: ingestion → embedding → vectorised criteria store → retrieval-augmented scoring. Lifted user engagement **+289%** in production. Project wound down after stepping away from DeepNeuron.
 >
 > 📚 **Notion Campus Lead, Melbourne** &nbsp;·&nbsp; *ongoing*
 > Driving Notion adoption across Monash's student engineering community.
